@@ -8,3 +8,5 @@ Creating personal profile web page.
 2) Added some interactivity to the Portfolio with jQuery and JavaScript.
 
 3) Added CV tab.
+
+4) Added Flickr API Picture request.
