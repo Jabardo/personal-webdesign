@@ -11,7 +11,7 @@ body {
   margin: 0 auto;
   padding: 0 5%;
 }
-
+	
 a {
   text-decoration: none;
 }
@@ -116,12 +116,34 @@ footer {
   color: #bdc3c7;
 }
 
-#gallery li a p {
+#gallery li a p,
+#gallery li p {
   margin: 0;
   padding: 5%;
   font-size: 0.75em;
   color: #bd33c7;
 }
+
+/**************************************
+           PAGE: INDEX
+**************************************/
+
+
+#welcome {
+  margin: auto;
+  padding: 0;
+  list-style: none;
+}
+
+#welcome li {
+  width: 60%;
+  margin: auto;
+}
+
+#welcomePic {
+	display: none;	
+}
+
 
 /**************************************
            PAGE: ABOUT
@@ -132,14 +154,85 @@ footer {
   display: block; /* To center the image in the screen */
   max-width: 200px;
   margin: 0 auto 30px;
-  border-radius: 100%;
+  border-radius: 30%;
 }
 
 
 /**************************************
            PAGE: CV
 **************************************/
+.cv-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
 
+.att{
+	padding-top: 0.2cm;
+	background-color: #fff;	
+	border-style: solid;
+}
+
+
+.scrollup{
+    position: fixed;
+    bottom: 2em;
+    right: 0px;
+    text-decoration: none;
+    color: #000000;
+    background-color: rgba(235, 235, 235, 0.80);
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+}
+
+.scrollup:hover{
+		background-color: rgba(135,135,135,0.50);
+}
+
+
+h3 {
+	text-align: center;
+}
+
+
+table {
+  max-width: 960px;
+  margin: 10px auto;
+}
+
+thead th {
+  font-weight: 400;
+  background: #8a97a0;
+  color: #FFF;
+}
+
+tr {
+  background: #f4f7f8;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+tr:nth-child(even) {
+  background: #e8eeef;
+}
+
+th, td {
+  text-align: left;
+  padding: 20px;
+  font-weight: 300;
+}
+
+tfoot tr {
+  background: none;
+}
+
+tfoot td {
+  padding: 10px 2px;
+  font-size: 0.8em;
+  font-style: italic;
+  color: #8a97a0;
+}
 
 /**************************************
            PAGE: CONTACT
@@ -180,8 +273,8 @@ footer {
 
 /* Site body */
 body {
-  background-color: #fff;
-  color: #999;
+  background-color: #FAFAFA;
+  color: #585858;
 }
 
 /* Green header */
@@ -204,7 +297,7 @@ h1, h2 {
 
 /* Links */
 a {
-  color: #6ab47b;
+  color: #013ADF;
 }
 
 
@@ -213,7 +306,7 @@ nav a, nav a:visited {
   color: #fff;
 }
 
-/* Selected nav link */ 
+/* Selected link */
 nav a.selected, nav a:hover {
   color: #32673f;
 }
@@ -221,3 +314,22 @@ nav a.selected, nav a:hover {
 footer p {
   color: #000;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
