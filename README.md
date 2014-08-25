@@ -16,3 +16,7 @@ Creating personal profile web page.
 6) Added RESTful API with Firebase app database. All info can be changed in real time. 
 
 7) PHP server side language files added to the project. Google Analytics as well.
+
+8) Updated all files with PHP Code. 
+
+9) Updated portfolio with Angular.js JavaScript Framework basic movie review project.
