@@ -15,16 +15,16 @@
   </head>
   <body>
   	<header>
-			<a href="index.html" id="logo">
+			<a href="index.php" id="logo">
         <h1>Alvaro Hernandez Jabardo</h1>
         <h2>Software Developer and Network Engineer</h2>
       </a>
   		<nav>
         <ul>
-          <li><a href="portfolio.html" class="selected">Portfolio</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="cv.html">CV</a></li>      
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="portfolio.php" class="selected">Portfolio</a></li>
+          <li><a href="about.php">About</a></li>
+          <li><a href="cv.php">CV</a></li>      
+          <li><a href="contact.php">Contact</a></li>
         </ul>
       </nav>
   	</header>
