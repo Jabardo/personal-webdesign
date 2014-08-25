@@ -1,37 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Alvaro Hernandez | Software Developer and Network Engineer</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href='http://fonts.googleapis.com/css?family=Lobster%7CShadows+Into+Light%7CDroid+Serif%7CChanga+One%7COpen+Sans:400italic,700italic,400,800,700%7CIndie+Flower' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='img/lego.png' rel='shortcut icon' type='image/png'>
+		<?php include("inc/header.php") ?>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <script src="js/scrollup.js" type="text/javascript"></script>
   </head>
   
   <body>  
+  	<?php include_once("analyticstracking.php") ?>
+  	
     <header>
-      <a href="index.html" id="logo">
+      <a href="index.php" id="logo">
         <h1>Alvaro Hernandez Jabardo</h1>
         <h2>Software Developer and Network Engineer</h2>
       </a>
       <nav>
         <ul>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="cv.html" class="selected">CV</a></li>   
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="portfolio.php">Portfolio</a></li>
+          <li><a href="about.php">About</a></li>
+          <li><a href="cv.php" class="selected">CV</a></li>   
+          <li><a href="contact.php">Contact</a></li>
         </ul>
       </nav>
     </header>
     
     <div id="wrapper">
     	<section id="work">
-        <h3>Work Experience:</h3>
+        <h3>Professional Experience:</h3>
         <div class="att">	
 	        <a href="http://www.att.com/gen/investor-relations?pid=5711" target="_blank"><img src="img/att.png" alt="att_logo" class="cv-icon"></a>
 	        <a href="http://en.wikipedia.org/wiki/Tier_1_network" target="_blank">Tier 1 &amp; 1.5 Network Support Engineer at AT&amp;T</a>
@@ -145,6 +140,7 @@
 							<li>Front-End Web Development: HTML,CSS and SASS.</li>
 							<li>Front-End Web Development: CSS Layout Techniques (Grid, Flexbox, Float, Positioning).</li>
 							<li>Back-End Web Development: PHP Server Side language. Used it to build a simple web application.</li>
+							<li>Database Foundations with XAMPP: Use of open source RDBMS MySQL with PHP Server Side language.</li>
 						</ul>
 					</div>
 			</section>
@@ -212,16 +208,6 @@
 					    </table>
 	      		</div>
       	</section>
-    
-      <footer>
-        <a href="http://twitter.com/alv_jabardo" target="_blank"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
-        <a href="https://www.facebook.com/alvaro.hernandezjabardo" target="_blank"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
-        <a href="https://www.linkedin.com/in/alvarohernandezjabardo" target="_blank"><img src="img/linkedin-wrap.png" alt="LinkedIn Logo" class="social-icon"></a>
-        <a href="https://github.com/Jabardo" target="_blank"><img src="img/github-wrap.png" alt="Github Logo" class="social-icon"></a>
-        <p>&copy; 2014 Alvaro Hernandez Jabardo.</p>
-      </footer>
-   	</div>
-    
-    <a href="#" class="scrollup">Go up!</a>
-  </body>
-</html>
+      	
+    	<a href="#" class="scrollup">Go up!</a>
+      <?php include("inc/footer.php") ?>
